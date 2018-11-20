@@ -1,0 +1,29 @@
+{
+  "name": "feels",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LlamaSantos/feels.git"
+  },
+  "keywords": [
+    "A",
+    "The",
+    "Feels"
+  ],
+  "author": "James R White II",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LlamaSantos/feels/issues"
+  },
+  "homepage": "https://github.com/LlamaSantos/feels#readme",
+  "dependencies": {
+    "Sentimental": "^1.0.1",
+    "sentiment": "^5.0.1",
+    "sentimental": "^0.1.2"
+  }
+}
