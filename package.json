@@ -23,6 +23,9 @@
   "homepage": "https://github.com/LlamaSantos/feels#readme",
   "dependencies": {
     "Sentimental": "^1.0.1",
+    "bootstrap": "^4.2.1",
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2",
     "sentiment": "^5.0.1",
     "sentimental": "^0.1.2"
   }
