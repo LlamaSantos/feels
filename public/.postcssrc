@@ -1,0 +1,7 @@
+{
+  "modules": true,
+  "plugins": {
+      "postcss-css-variables": {},
+      "postcss-import": {}
+  }
+}

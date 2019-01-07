@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "concurrently \"node .\" \"parcel watch ./public/index.html --out-dir dist\"",
+    "debug": "concurrently \"ndb .\" \"parcel watch ./public/index.html --out-dir dist\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel watch ./public/index.html --out-dir dist"
   },
   "repository": {
     "type": "git",
@@ -22,11 +25,26 @@
   },
   "homepage": "https://github.com/LlamaSantos/feels#readme",
   "dependencies": {
+    "@reach/router": "^1.2.1",
     "Sentimental": "^1.0.1",
     "bootstrap": "^4.2.1",
+    "concurrently": "^4.1.0",
+    "dotenv": "^6.2.0",
+    "koa": "^2.6.2",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-websocket": "^5.0.1",
+    "md5": "^2.2.1",
+    "microstates": "^0.12.4",
+    "nats": "^1.2.2",
+    "nats-nerve": "^1.0.4",
+    "node-nats-streaming": "0.0.51",
+    "parcel-bundler": "^1.11.0",
+    "ramda": "^0.26.1",
     "react": "^16.7.0-alpha.2",
     "react-dom": "^16.7.0-alpha.2",
     "sentiment": "^5.0.1",
-    "sentimental": "^0.1.2"
+    "sentimental": "^0.1.2",
+    "twitter-lite": "^0.8.2"
   }
 }
